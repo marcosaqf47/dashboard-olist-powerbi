@@ -1,95 +1,95 @@
-# Dashboard de Vendas Olist
+# Olist Sales Dashboard
 
-Dashboard interativo em Power BI com análise completa das vendas do marketplace Olist, cobrindo visão geral do negócio, distribuição geográfica e performance operacional.
+Interactive Power BI dashboard with a complete analysis of Olist marketplace sales, covering business overview, geographic distribution, and operational performance.
 
-## Sobre o projeto
+## About the project
 
-Este projeto analisa dados públicos do Olist, um dos maiores marketplaces de e-commerce do Brasil, com foco em:
+This project analyzes public data from Olist, one of Brazil's largest e-commerce marketplaces, focusing on:
 
-- Faturamento e volume de pedidos
-- Distribuição geográfica das vendas
-- Eficiência operacional (entregas, atrasos e avaliações)
+- Revenue and order volume
+- Geographic distribution of sales
+- Operational efficiency (deliveries, delays, and reviews)
 
-O objetivo é transformar dados brutos em insights acionáveis para apoiar decisões de negócio.
+The goal is to turn raw data into actionable insights to support business decisions.
 
-## Tecnologias utilizadas
+## Technologies used
 
 - Power BI Desktop
-- DAX (medidas e colunas calculadas)
-- Power Query (ETL e modelagem de dados)
-- Dataset público Olist (Kaggle)
+- DAX (measures and calculated columns)
+- Power Query (ETL and data modeling)
+- Olist public dataset (Kaggle)
 
-## Estrutura do dashboard
+## Dashboard structure
 
-O relatório é dividido em 3 páginas:
+The report is divided into 3 pages:
 
-### 1. Visão Geral
-- KPIs principais: faturamento, pedidos, ticket médio e avaliação média
-- Faturamento por categoria de produto
-- Evolução de pedidos e faturamento por mês
-- Faturamento por forma de pagamento
-- Faturamento por estado
-- Tabela de produtos com desempenho
+### 1. Overview
+- Key KPIs: revenue, orders, average ticket, and average review score
+- Revenue by product category
+- Orders and revenue trend by month
+- Revenue by payment method
+- Revenue by state
+- Top-performing products table
 
-### 2. Geográfico
-- Mapa de formas do Brasil com faturamento por estado
-- Top 10 estados por faturamento
-- Faturamento por região
-- Frete médio por estado
-- Tempo médio de entrega por estado
+### 2. Geographic
+- Brazil shape map with revenue by state
+- Top 10 states by revenue
+- Revenue by region
+- Average shipping cost by state
+- Average delivery time by state
 
-### 3. Operação
-- KPIs: % de atraso, frete médio, tempo médio de entrega e itens por pedido
-- Entregas no prazo vs atrasadas
-- Avaliação média por categoria
-- Distribuição das notas de avaliação
-- Entregas no prazo vs atrasadas por mês
-- Média de parcelas por forma de pagamento
+### 3. Operations
+- KPIs: delay rate, average shipping cost, average delivery time, and items per order
+- On-time vs. late deliveries
+- Average review score by category
+- Review score distribution
+- On-time vs. late deliveries by month
+- Average number of installments by payment method
 
-## Principais insights
+## Key insights
 
-- Concentração de receita: a maior parte do faturamento vem de poucos estados do Sudeste (SP, MG, RJ) e do Sul (PR, RS, SC).
-- Sazonalidade: o volume de pedidos varia ao longo do ano, com picos em períodos de campanhas como Black Friday.
-- Qualidade da entrega: o percentual de pedidos atrasados e o tempo médio de entrega permitem identificar gargalos logísticos por estado.
-- Satisfação do cliente: a distribuição das notas mostra a concentração de avaliações positivas e as categorias com pior desempenho.
+- Revenue concentration: most of the revenue comes from a few states in the Southeast (SP, MG, RJ) and South (PR, RS, SC).
+- Seasonality: order volume varies throughout the year, with peaks during campaigns such as Black Friday.
+- Delivery quality: the percentage of late orders and the average delivery time help identify logistics bottlenecks by state.
+- Customer satisfaction: the review score distribution shows where positive reviews concentrate and which categories underperform.
 
-## Medidas e colunas criadas
+## Measures and calculated columns
 
-Principais medidas DAX:
+Key DAX measures:
 
-- Faturamento
-- Pedidos
-- Ticket Médio
-- Frete Médio
-- % Atraso
-- Tempo Médio de Entrega (dias)
-- Itens por Pedido
-- Avaliação Média
+- Revenue
+- Orders
+- Average Ticket
+- Average Shipping Cost
+- Delay Rate
+- Average Delivery Time (days)
+- Items per Order
+- Average Review Score
 
-Principais colunas calculadas:
+Key calculated columns:
 
-- Regiao (Norte, Nordeste, Centro-Oeste, Sudeste, Sul)
-- Nome Estado (sigla para nome completo)
-- Situacao Entrega (No prazo / Atrasado)
-- Nota Aproximada (arredondamento da avaliação)
+- Region (North, Northeast, Central-West, Southeast, South)
+- State Name (state code to full name)
+- Delivery Status (On time / Late)
+- Approximate Score (rounded review score)
 
-## Fonte de dados
+## Data source
 
-Dataset público Olist, disponível no Kaggle: Brazilian E-Commerce Public Dataset by Olist. Contém informações de pedidos, pagamentos, avaliações, clientes, vendedores, produtos e geolocalização.
+Olist public dataset, available on Kaggle: Brazilian E-Commerce Public Dataset by Olist. It contains information on orders, payments, reviews, customers, sellers, products, and geolocation.
 
-## Como usar
+## How to use
 
-1. Baixe o arquivo .pbix e abra no Power BI Desktop.
-2. Navegue pelas páginas: Visão Geral, Geográfico e Operação.
-3. Use os filtros de data e categoria para explorar os dados.
+1. Download the .pbix file and open it in Power BI Desktop.
+2. Navigate through the pages: Overview, Geographic, and Operations.
+3. Use the date and category filters to explore the data.
 
-## Capturas de tela
+## Screenshots
 
 <img width="1314" height="743" alt="Captura de tela 2026-09-21 074643" src="https://github.com/user-attachments/assets/61131f5b-b8e2-43e0-b0be-aab9eeceeedb" />
 <img width="1318" height="740" alt="Captura de tela 2026-09-21 074801" src="https://github.com/user-attachments/assets/a30129cd-b8fb-4f8e-a622-4dc98ad2ae01" />
 <img width="1334" height="749" alt="Captura de tela 2026-09-21 075005" src="https://github.com/user-attachments/assets/4b2e3f6f-a2bc-4263-a6e6-faa0a2bae7e6" />
 
 
-## Autor
+## Author
 
 Marcos Antônio - [[link do LinkedIn](https://www.linkedin.com/in/marcos-ant%C3%B4nio-b0131a429/)]
